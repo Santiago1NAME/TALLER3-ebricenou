@@ -9,7 +9,7 @@ class BoaConstrictor:
         return round(impuestos * peso, 2)
 
     def alimentar(self):
-        if self.ratones_comidos >= 10:
+        if self.ratones_comidos >= 20:
             raise ValueError("Demasiados Ratones!")
         self.ratones_comidos += 1
         return "Boa alimentada"
